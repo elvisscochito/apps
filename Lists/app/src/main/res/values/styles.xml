@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="myStyle" parent="Widget.AppCompat.Button">
+        <item name="backgroundTint">#456789</item>
+    </style>
+</resources>
