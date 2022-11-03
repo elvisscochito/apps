@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Multi Lenguages</string>
+    <string name="type_here">Escribe aquí...</string>
+    <string name="toast">Tostada</string>
+    <string name="alert_dialog">Diálogo de alerta</string>
+    <string name="log">Consola</string>
+    <string name="change_language">Cambiar idioma</string>
+
+    <string name="alert_dialog_title">Título del cuadro de diálogo de alerta</string>
+    <string name="alert_dialog_positive_button">Ok</string>
+    <string name="alert_dialog_neutral_button">Recordarme más tarde</string>
+    <string name="alert_dialog_negative_button">Cerrar</string>
+</resources>

@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Multi Lenguages</string>
-    <string name="open">Ouvert</string>
-    <string name="edit">Éditer</string>
-    <string name="settings">Réglages</string>
-    <string name="exit">Sortir</string>
-    <string name="title_activity_open">Activité ouverte</string>
-    <string name="text_open_activity">Ouvrir le texte de l\'activité</string>
+    <string name="type_here">Écrivez ici...</string>
+    <string name="toast">Pain grillé</string>
+    <string name="alert_dialog">Boîte de dialogue d\'alerte</string>
+    <string name="log">Console</string>
+    <string name="change_language">Changer de langue</string>
+
+    <string name="alert_dialog_title">Titre de la boîte de dialogue d\'alerte</string>
+    <string name="alert_dialog_positive_button">Ok</string>
+    <string name="alert_dialog_neutral_button">Plus tard</string>
+    <string name="alert_dialog_negative_button">Proche</string>
 </resources>

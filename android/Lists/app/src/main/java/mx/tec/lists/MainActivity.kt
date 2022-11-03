@@ -6,14 +6,19 @@ import android.widget.ArrayAdapter
 import android.widget.ListView
 import android.widget.Spinner
 import android.widget.Toast
+import mx.tec.lists.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        // setContentView(R.layout.activity_main)
+        setContentView(binding.root)
 
-        val lvList = findViewById<ListView>(R.id.lvList)
-        val spList = findViewById<Spinner>(R.id.spList)
+        /* val lvList = findViewById<ListView>(R.id.lvList)
+        val spList = findViewById<Spinner>(R.id.spList) */
         val data = listOf("Item 1", "Item 2", "Item 3", "Item 4")
 
         val adapter = ArrayAdapter<String>(
@@ -24,11 +29,12 @@ class MainActivity : AppCompatActivity() {
             data
         )
 
-        lvList.adapter = adapter
-        spList.adapter = adapter
+        // Access id from binding object (root .xml)
+        binding.lvList.adapter = adapter
+        binding.spList.adapter = adapter
 
         // parent = a ListView, view = screen size
-        lvList.setOnItemClickListener { parent, view, position, id ->
+        binding.lvList.setOnItemClickListener { parent, view, position, id ->
             when (position) {
                 1 -> {
                     Toast.makeText(

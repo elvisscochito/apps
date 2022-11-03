@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:enabled="true"
+        android:icon="@drawable/myic_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_search"
+        android:enabled="true"
+        android:icon="@drawable/myic_search"
+        android:title="Search" />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:enabled="true"
+        android:icon="@drawable/myic_profile"
+        android:title="Profile" />
+</menu>

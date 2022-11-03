@@ -20,26 +20,33 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Type here..."
+            android:hint="@string/type_here"
             android:inputType="textPersonName" />
 
         <Button
             android:id="@+id/btnToast"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Toast" />
+            android:text="@string/toast" />
 
         <Button
             android:id="@+id/btnAlertDialog"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Alert Dialog" />
+            android:text="@string/alert_dialog" />
 
         <Button
             android:id="@+id/btnLog"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Log" />
+            android:text="@string/log" />
+
+        <Button
+            android:id="@+id/btnChangeLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/change_language" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
